@@ -1,0 +1,140 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    color: seashell;
+
+    opacity: 0.9;
+    text-align: center;
+}
+
+html {
+    background-color: black;
+    font-family: Helvetica;
+    font-size: 22px;
+}
+
+header {
+    height: 69px;
+    border-bottom: 1px solid seashell;
+    width: 100%;
+    margin-top: 15px;
+}
+
+.logo {
+    float: left;
+    margin-left: 10px;
+    height: 50px;
+}
+
+.menu {
+    float: right;
+    margin-top: 15px;
+}
+.menu a {
+    text-align: center;
+    text-decoration: underline;
+    color: seashell;
+    padding: 14px 16px;
+}
+
+.menu a:hover {
+    color: lightblue;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+section {
+    margin-bottom: 70px;
+}
+
+#mission {
+    background-image: url("../images/img-mission-background.jpg");
+    height: 700px;
+    width: 1200px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;    
+}
+
+#mission #mission-text {
+    background-color: black;  
+    padding: 15px;  
+}
+
+#mission h2 {
+    margin-bottom: 10px;
+}
+
+#tea-of-the-month {
+    width: 1000px;   
+}
+
+#tea-of-the-month h2 {
+    margin-bottom: 10px;
+}
+
+#tea-of-the-month-teas {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;  
+}
+
+#tea-of-the-month-teas img {
+    height: 200px;
+    width: 300px;
+}
+
+.tea-box {
+    margin: 15px;
+}
+
+#locations {
+    background-image: url("../images/img-locations-background.jpg");
+    height: 500px;
+    width: 1200px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column; 
+    margin: 10px;   
+}
+
+#locations .row {    
+    display: flex;
+    justify-content: center;
+    flex-direction: row;       
+}
+
+#locations .locations-text {
+    background-color: black;
+    height: 300px;
+    width: 300px;
+    opacity: 1;
+    margin: 15px 20px;
+}
+
+.locations-text h3 {
+    margin: 20px 0px;
+}
+
+.locations-text h4 {
+    margin: 40px 0px;
+}
+
+#contact-info {
+    display: flex;    
+    flex-direction: column;  
+    justify-content: space-around;     
+    height: 200px;
+}
+
+footer p{
+    margin-left: 20px;
+    text-align: left;
+}
